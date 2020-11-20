@@ -5,7 +5,7 @@ import { PlanetsService } from '../services/planets.service';
 @Component({
   selector: 'app-planets-listado',
   templateUrl: './planets-listado.component.html',
-  styleUrls: ['./planets-listado.component.css']
+  styleUrls: ['./planets-listado.component.scss']
 })
 export class PlanetsListadoComponent implements OnInit {
   listadoPlanetas: Planet[];
