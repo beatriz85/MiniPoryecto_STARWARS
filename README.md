@@ -1,2 +1,2 @@
-# MiniPoryecto_STARWARS
-Proyecto Angular
+
+Proyecto Angular: STARWARS
