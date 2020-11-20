@@ -14,11 +14,15 @@ import { FormsModule } from '@angular/forms';
 import { PlanetsService } from './services/planets.service';
 import { PlanetsListadoComponent } from './planets-listado/planets-listado.component';
 
+import { PeliculasService} from './services/peliculas.service';
+import { PeliculasListadoComponent } from './peliculas-listado/peliculas-listado.component'
+
 
 @NgModule({
   declarations: [
     AppComponent,
     PlanetsListadoComponent,
+    PeliculasListadoComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,9 @@ import { PlanetsListadoComponent } from './planets-listado/planets-listado.compo
     MatIconModule,
     MatTableModule
   ],
-  providers: [PlanetsService],
+  //providers: [PlanetsService],
+  providers: [PeliculasService],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
